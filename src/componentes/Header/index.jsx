@@ -15,7 +15,7 @@ export default function Header() {
         </figure>
         <Pesquisar />
       </div>
-      <BotaoPrincipal texto={"Login"} />
+      <BotaoPrincipal tipo={'semBg'} texto={"Login"} />
       <button className={styles.btnFora}>
         <svg
           xmlns="http://www.w3.org/2000/svg"

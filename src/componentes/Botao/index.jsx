@@ -9,9 +9,9 @@ const Btn = styled.button`
   align-items: center;
   gap: 10px;
   border: 1px solid #2a7ae4;
-  background: none;
-
-  color: #2a7ae4;
+  
+  color: ${props => props.type === 'semBg' ? '#2a7ae4' : '#fff' };
+  background: ${props => props.type === 'semBg' ? 'none' : '#2a7ae4' };
   font-family: Raleway;
   font-size: 14px;
   font-style: normal;
@@ -20,10 +20,10 @@ const Btn = styled.button`
   cursor: pointer;
 `;
 
-export default function BotaoPrincipal({ texto }) {
+export default function BotaoPrincipal({ texto, tipo }) {
   return (
-    <Link to={'/login'}>
-      <Btn>{texto}</Btn>
+    <Link to={'/login'} >
+      <Btn type={tipo}>{texto}</Btn>
     </Link>
   );
 }
