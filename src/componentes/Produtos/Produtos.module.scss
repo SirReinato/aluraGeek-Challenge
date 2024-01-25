@@ -1,0 +1,33 @@
+/* Versão desktop */
+
+/* Versão tablet */
+@media (max-width: 1024px) {}
+
+/* Versão mobile */
+@media (max-width: 430px) {
+    .conteiner {
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        align-self: stretch;
+
+        .top {
+            width: 380px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            align-self: stretch;
+        }
+
+        .produtos {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            align-self: stretch;
+        }
+    }
+}
