@@ -1,6 +1,7 @@
 import styles from './Produtos.module.scss';
 import TituloProdutos from './TituloProdutos/TituloProdutos';
 import VerTudo from './VerTudo/VerTudo';
+import produtosApi from '../../JSON/produtos.json';
 
 const Produtos = ({ }) => {
 	return (
