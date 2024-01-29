@@ -3,14 +3,14 @@
         {
             "nome": "Produto XYZ",
             "preco": "R$ 60,00",
-            "path": "src/assets/produtos/starWars/produto01.png",
+            "path": "./src/assets/produtos/starWars/produto01.png",
             "alt": "Esse e o produto",
             "id": "star01"
         },
         {
             "nome": "Produto XYZ",
             "preco": "R$ 60,00",
-            "path": "src/assets/produtos/starWars/produto02.png",
+            "path": "./src/assets/produtos/starWars/produto02.png",
             "alt": "Esse e o produto",
             "id": "star02"
         }
@@ -18,28 +18,28 @@
         {
             "nome": "Produto XYZ",
             "preco": "R$ 60,00",
-            "path": "src/assets/produtos/starWars/produto03.png",
+            "path": "./src/assets/produtos/starWars/produto03.png",
             "alt": "Esse e o produto",
             "id": "star03"
         },
         {
             "nome": "Produto XYZ",
             "preco": "R$ 60,00",
-            "path": "src/assets/produtos/starWars/produto04.png",
+            "path": "./src/assets/produtos/starWars/produto04.png",
             "alt": "Esse e o produto",
             "id": "star04"
         },
         {
             "nome": "Produto XYZ",
             "preco": "R$ 60,00",
-            "path": "src/assets/produtos/starWars/produto05.png",
+            "path": "./src/assets/produtos/starWars/produto05.png",
             "alt": "Esse e o produto",
             "id": "star05"
         },
         {
             "nome": "Produto XYZ",
             "preco": "R$ 60,00",
-            "path": "src/assets/produtos/starWars/produto06.png",
+            "path": "./src/assets/produtos/starWars/produto06.png",
             "alt": "Esse e o produto",
             "id": "star06"
         }
@@ -48,14 +48,14 @@
         {
             "nome": "Produto XYZ",
             "preco": "R$ 60,00",
-            "path": "src/assets/produtos/consoles/produto01.png",
+            "path": "./src/assets/produtos/consoles/produto01.png",
             "alt": "Esse e o produto",
             "id": "conso01"
         },
         {
             "nome": "Produto XYZ",
             "preco": "R$ 60,00",
-            "path": "src/assets/produtos/consoles/produto02.png",
+            "path": "./src/assets/produtos/consoles/produto02.png",
             "alt": "Esse e o produto",
             "id": "conso02"
         }
@@ -63,28 +63,28 @@
         {
             "nome": "Produto XYZ",
             "preco": "R$ 60,00",
-            "path": "src/assets/produtos/consoles/produto03.png",
+            "path": "./src/assets/produtos/consoles/produto03.png",
             "alt": "Esse e o produto",
             "id": "conso03"
         },
         {
             "nome": "Produto XYZ",
             "preco": "R$ 60,00",
-            "path": "src/assets/produtos/consoles/produto04.png",
+            "path": "./src/assets/produtos/consoles/produto04.png",
             "alt": "Esse e o produto",
             "id": "conso04"
         },
         {
             "nome": "Produto XYZ",
             "preco": "R$ 60,00",
-            "path": "src/assets/produtos/consoles/produto05.png",
+            "path": "./src/assets/produtos/consoles/produto05.png",
             "alt": "Esse e o produto",
             "id": "conso05"
         },
         {
             "nome": "Produto XYZ",
             "preco": "R$ 60,00",
-            "path": "src/assets/produtos/consoles/produto06.png",
+            "path": "./src/assets/produtos/consoles/produto06.png",
             "alt": "Esse e o produto",
             "id": "conso06"
         }
@@ -93,14 +93,14 @@
         {
             "nome": "Produto XYZ",
             "preco": "R$ 60,00",
-            "path": "src/assets/produtos/diversos/produto01.png",
+            "path": "./src/assets/produtos/diversos/produto01.png",
             "alt": "Esse e o produto",
             "id": "diver01"
         },
         {
             "nome": "Produto XYZ",
             "preco": "R$ 60,00",
-            "path": "src/assets/produtos/diversos/produto02.png",
+            "path": "./src/assets/produtos/diversos/produto02.png",
             "alt": "Esse e o produto",
             "id": "diver02"
         }
@@ -108,28 +108,28 @@
         {
             "nome": "Produto XYZ",
             "preco": "R$ 60,00",
-            "path": "src/assets/produtos/diversos/produto03.png",
+            "path": "./src/assets/produtos/diversos/produto03.png",
             "alt": "Esse e o produto",
             "id": "diver03"
         },
         {
             "nome": "Produto XYZ",
             "preco": "R$ 60,00",
-            "path": "src/assets/produtos/diversos/produto04.png",
+            "path": "./src/assets/produtos/diversos/produto04.png",
             "alt": "Esse e o produto",
             "id": "diver04"
         },
         {
             "nome": "Produto XYZ",
             "preco": "R$ 60,00",
-            "path": "src/assets/produtos/diversos/produto05.png",
+            "path": "./src/assets/produtos/diversos/produto05.png",
             "alt": "Esse e o produto",
             "id": "diver05"
         },
         {
             "nome": "Produto XYZ",
             "preco": "R$ 60,00",
-            "path": "src/assets/produtos/diversos/produto06.png",
+            "path": "./src/assets/produtos/diversos/produto06.png",
             "alt": "Esse e o produto",
             "id": "diver06"
         }
