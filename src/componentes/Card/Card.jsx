@@ -1,13 +1,14 @@
 import styles from './Card.module.scss';
 
-const Card = ({path, alt, nome, preco}) => {
+const Card = ({ path, alt, nome, preco }) => {
 	return (
 		<figure className={styles.card}>
 			<img src={path} alt={alt} />
- 			<figcaption>{nome}</figcaption>
-			<span>{preco}</span>
-			<button>Ver Produto</button>
- 		</figure>
+			<figcaption>{nome}
+				<span>{preco}</span>
+				<button>Ver Produto</button>
+			</figcaption>
+		</figure>
 	);
 };
 

@@ -1,9 +1,17 @@
 import styles from './Produtos.module.scss';
 import TituloProdutos from './TituloProdutos/TituloProdutos';
 import VerTudo from './VerTudo/VerTudo';
-import produtosApi from '../../JSON/produtos.json';
+import produtosJson from '../../JSON/produtos.json';
+import { Card } from '../Card';
 
-const Produtos = ({ }) => {
+
+
+const Produtos = () => {
+	const produtosStar = produtosJson.StarWars;
+	console.log(produtosStar);
+	const produtosConsoles = produtosJson.Consoles;
+	const produtosDiversos = produtosJson.Diversos;
+
 	return (
 		<section className={styles.conteiner}>
 			{/* conjunto star wars */}
@@ -13,7 +21,11 @@ const Produtos = ({ }) => {
 					<VerTudo />
 				</div>
 				<div className={styles.produtos}>
-
+					{produtosStar.map(dados =>{
+						return (
+							<Card {...dados} key={dados.id} />
+						)
+					})}
 				</div>
 			</div>
 
@@ -24,7 +36,11 @@ const Produtos = ({ }) => {
 					<VerTudo />
 				</div>
 				<div className={styles.produtos}>
-
+				{produtosConsoles.map(dados =>{
+						return (
+							<Card {...dados} key={dados.id} />
+						)
+					})}
 				</div>
 			</div>
 
@@ -36,7 +52,11 @@ const Produtos = ({ }) => {
 
 				</div>
 				<div className={styles.produtos}>
-
+				{produtosDiversos.map(dados =>{
+						return (
+							<Card {...dados} key={dados.id} />
+						)
+					})}
 				</div>
 			</div>
 		</section>
