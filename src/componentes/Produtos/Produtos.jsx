@@ -8,7 +8,6 @@ import { Card } from '../Card';
 
 const Produtos = () => {
 	const produtosStar = produtosJson.StarWars;
-	console.log(produtosStar);
 	const produtosConsoles = produtosJson.Consoles;
 	const produtosDiversos = produtosJson.Diversos;
 

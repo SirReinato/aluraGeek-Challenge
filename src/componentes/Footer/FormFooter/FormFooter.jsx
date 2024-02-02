@@ -8,7 +8,8 @@ const FormFooter = ({ }) => {
 				<label>Nome</label>
 				<input className={styles.normal} type="text" placeholder='Digite seu nome' />
 			</div>
-			<input className={styles.inputMaior} type="text" name="msg" id="msg" />
+			<textarea id='msg' name='msg' rows='5' cols={'58'} placeholder='Escreva sua mensagem'>
+			</textarea>
 			<BotaoPrincipal texto={'Enviar mensagem'}/>
 		</div>
 	);

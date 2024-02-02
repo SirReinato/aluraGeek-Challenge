@@ -1,7 +1,185 @@
 /* Versão desktop */
+.footer {
+    width: 100%;
+    display: flex;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 115px;
+    align-self: stretch;
+    box-sizing: border-box;
+
+    background: #EAF2FD;
+
+    .bannerNav {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 16px 32px;
+
+        img {
+            width: 176px;
+        }
+
+        nav {
+            ul {
+                display: flex;
+                width: 176px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 24px;
+
+                li {
+                    color: v#464646;
+                    text-align: center;
+                    font-family: Raleway;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        flex: 1 0 0;
+        background: none;
+
+        h3 {
+            color: var(--preto-100, #464646);
+            font-family: Raleway;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+
+}
+
+.dev {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+
+    background: #FFF;
+
+    p {
+        color: #464646;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}
 
 /* Versão tablet */
-@media (min-width: 432px) and (max-width: 1024px) {}
+@media (min-width: 432px) and (max-width: 1024px) {
+    .footer {
+        width: 100%;
+        display: flex;
+        padding: 32px;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        gap: 115px;
+        align-self: stretch;
+        box-sizing: border-box;
+
+        background: #EAF2FD;
+
+        .bannerNav {
+            display: flex;
+            width: 254px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 16px;
+
+            img {
+                width: 176px;
+            }
+
+            nav {
+                ul {
+                    display: flex;
+                    width: 176px;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 24px;
+
+                    li {
+                        color: v#464646;
+                        text-align: center;
+                        font-family: Raleway;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+
+
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 8px;
+            flex: 1 0 0;
+            background: none;
+
+            h3 {
+                color: var(--preto-100, #464646);
+                font-family: Raleway;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+
+
+    }
+
+    .dev {
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        padding: 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+
+        background: #FFF;
+
+
+        p {
+            color: #464646;
+            text-align: center;
+            font-family: Raleway;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+}
 
 /* Versão mobile */
 @media (max-width: 431px) {
@@ -18,58 +196,80 @@
 
         background: #EAF2FD;
 
-        img {
-            width: 176px;
-        }
+        .bannerNav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            align-self: stretch;
 
-        nav {
-            ul {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                gap: 16px;
-                align-self: stretch;
+            img {
+                width: 176px;
+            }
 
-                li {
-                    color: v#464646;
-                    text-align: center;
-                    font-family: Raleway;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 500;
-                    line-height: normal;
+            nav {
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 16px;
+                    align-self: stretch;
+
+                    li {
+                        color: v#464646;
+                        text-align: center;
+                        font-family: Raleway;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
                 }
             }
         }
 
-        .bannerNav {}
 
         form {
-            h3 {}
-        }
-
-        .dev {
             width: 100%;
-            box-sizing: border-box;
             display: flex;
-            padding: 32px;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-            align-self: stretch;
+            flex-direction: column;
+            align-items: start;
+            background: none;
 
-            background: #FFF;
-
-
-            p {
-                color: #464646;
-                text-align: center;
+            h3 {
+                color: var(--preto-100, #464646);
                 font-family: Raleway;
                 font-size: 16px;
                 font-style: normal;
-                font-weight: 500;
+                font-weight: 700;
                 line-height: normal;
             }
+        }
+
+
+    }
+
+    .dev {
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        padding: 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+
+        background: #FFF;
+
+
+        p {
+            color: #464646;
+            text-align: center;
+            font-family: Raleway;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
         }
     }
 }
