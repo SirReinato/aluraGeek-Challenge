@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import PaginaPadrao from "./pages/PaginaPadrao";
 import Erro404 from "./pages/Erro404";
+import TodosProdutos from "./pages/TodosProdutos/TodosProdutos";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<PaginaPadrao />}>
           <Route index element={<Home />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/addProduto" element={<TodosProdutos />} />
         </Route>
         <Route path="*" element={<Erro404/>}/>
       </Routes>

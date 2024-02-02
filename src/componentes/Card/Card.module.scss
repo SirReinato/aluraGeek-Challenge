@@ -54,7 +54,7 @@
 /* Versão tablet */
 @media (min-width: 432px) and (max-width: 1024px) {
     .card {
-        flex: 1 0 0;
+        width: 150px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;

@@ -3,7 +3,7 @@ import styles from './VerTudo.module.scss';
 
 const VerTudo = () => {
 	return (
-		<Link to={'/todosProdutos'}>
+		<Link to={'/addProduto'}>
 			<p className={styles.vertudo}>
 				Ver tudo
 				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">

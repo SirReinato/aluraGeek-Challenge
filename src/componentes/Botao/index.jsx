@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const Btn = styled.button`
   display: flex;
-  width: 133px;
   padding: 12px 16px;
   justify-content: center;
   align-items: center;
@@ -20,9 +19,9 @@ const Btn = styled.button`
   cursor: pointer;
 `;
 
-export default function BotaoPrincipal({ texto, tipo }) {
+export default function BotaoPrincipal({ texto, tipo, link }) {
   return (
-    <Link to={'/login'} >
+    <Link to={`/${link}`} >
       <Btn type={tipo}>{texto}</Btn>
     </Link>
   );

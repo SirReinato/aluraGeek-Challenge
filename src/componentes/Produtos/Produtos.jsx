@@ -10,7 +10,7 @@ const Produtos = () => {
 	const produtosStar = produtosJson.StarWars;
 	const produtosConsoles = produtosJson.Consoles;
 	const produtosDiversos = produtosJson.Diversos;
-
+      
 	return (
 		<section className={styles.conteiner}>
 			{/* conjunto star wars */}
