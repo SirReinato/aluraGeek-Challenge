@@ -10,11 +10,12 @@ const Produtos = () => {
 	const produtosStar = produtosJson.StarWars;
 	const produtosConsoles = produtosJson.Consoles;
 	const produtosDiversos = produtosJson.Diversos;
-      
+
+
 	return (
 		<section className={styles.conteiner}>
 			{/* conjunto star wars */}
-			<div className={styles.conjunto}>
+			<article className={styles.conjunto}>
 				<div className={styles.top}>
 					<TituloProdutos nome={'Star Wars'} />
 					<VerTudo />
@@ -26,10 +27,10 @@ const Produtos = () => {
 						)
 					})}
 				</div>
-			</div>
+			</article>
 
 			{/* conjunto consoles */}
-			<div className={styles.conjunto}>
+			<article className={styles.conjunto} id='consoles'>
 				<div className={styles.top}>
 					<TituloProdutos nome={'Consoles'} />
 					<VerTudo />
@@ -41,10 +42,10 @@ const Produtos = () => {
 						)
 					})}
 				</div>
-			</div>
+			</article>
 
 			{/* conjunto diversos */}
-			<div className={styles.conjunto}>
+			<article className={styles.conjunto}>
 				<div className={styles.top}>
 					<TituloProdutos nome={'Diversos'} />
 					<VerTudo />
@@ -57,7 +58,7 @@ const Produtos = () => {
 						)
 					})}
 				</div>
-			</div>
+			</article>
 		</section>
 	);
 };

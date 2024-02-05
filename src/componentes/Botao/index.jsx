@@ -14,15 +14,16 @@ const Btn = styled.button`
   font-family: Raleway;
   font-size: 14px;
   font-style: normal;
+  behavior: smooth;
   font-weight: 600;
   line-height: normal;
   cursor: pointer;
 `;
 
-export default function BotaoPrincipal({ texto, tipo, link }) {
+export default function BotaoPrincipal({ texto, tipo, link, interno }) {
   return (
-    <Link to={`/${link}`} >
-      <Btn type={tipo}>{texto}</Btn>
+    <Link to={`/${link}`} href={interno}>
+      <Btn  type={tipo}>{texto}</Btn>
     </Link>
   );
 }
