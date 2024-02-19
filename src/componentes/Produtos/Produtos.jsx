@@ -3,14 +3,14 @@ import TituloProdutos from './TituloProdutos/TituloProdutos';
 import VerTudo from './VerTudo/VerTudo';
 import produtosJson from '../../JSON/produtos.json';
 import { Card } from '../Card';
+import { useContext } from 'react';
+import Service, { ApiContext } from 'src/Service/Service';
 
 
 
 const Produtos = () => {
-	const produtosStar = produtosJson.StarWars;
-	const produtosConsoles = produtosJson.Consoles;
-	const produtosDiversos = produtosJson.Diversos;
-
+	const {starWars, consoles, diversos} = useContext(ApiContext)
+	Service()
 
 	return (
 		<section className={styles.conteiner}>
@@ -21,7 +21,7 @@ const Produtos = () => {
 					<VerTudo />
 				</div>
 				<div className={styles.produtos}>
-					{produtosStar.map(dados =>{
+					{starWars.map(dados =>{
 						return (
 							<Card {...dados} key={dados.id} />
 						)
@@ -36,7 +36,7 @@ const Produtos = () => {
 					<VerTudo />
 				</div>
 				<div className={styles.produtos}>
-				{produtosConsoles.map(dados =>{
+				{consoles.map(dados =>{
 						return (
 							<Card {...dados} key={dados.id} />
 						)
@@ -52,7 +52,7 @@ const Produtos = () => {
 
 				</div>
 				<div className={styles.produtos}>
-				{produtosDiversos.map(dados =>{
+				{diversos.map(dados =>{
 						return (
 							<Card {...dados} key={dados.id} />
 						)
