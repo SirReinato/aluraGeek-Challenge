@@ -1,0 +1,64 @@
+/* Versão desktop */
+.ohprodutonodetalhe {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    row-gap: 32px;
+
+    .painel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 380px;
+            height: 300px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+        }
+    }
+
+    figcaption {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 8px;
+
+        h3 {
+            font-family: Raleway;
+            font-size: 52px;
+            font-weight: 500;
+            line-height: 61px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #464646;
+        }
+
+        span {
+            font-family: Raleway;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #464646;
+        }
+
+        p {
+            font-family: Raleway;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #464646;
+
+        }
+    }
+}
+
+/* Versão tablet */
+@media (min-width: 432px) and (max-width: 1024px) {}
+
+/* Versão mobile */
+@media (max-width: 431px) {}

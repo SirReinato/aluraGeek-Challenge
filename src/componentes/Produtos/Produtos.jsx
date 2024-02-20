@@ -1,7 +1,6 @@
 import styles from './Produtos.module.scss';
 import TituloProdutos from './TituloProdutos/TituloProdutos';
 import VerTudo from './VerTudo/VerTudo';
-import produtosJson from '../../JSON/produtos.json';
 import { Card } from '../Card';
 import { useContext } from 'react';
 import Service, { ApiContext } from 'src/Service/Service';
@@ -9,6 +8,7 @@ import Service, { ApiContext } from 'src/Service/Service';
 
 
 const Produtos = () => {
+
 	const {starWars, consoles, diversos} = useContext(ApiContext)
 	Service()
 
@@ -65,3 +65,5 @@ const Produtos = () => {
 
 
 export default Produtos;
+
+
